@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>ldwnlp</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Contenedor de controles */
+    #controls {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: absolute;
+      top: 100px;
+      left: 10px;
+      z-index: 10;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 8px 12px;
+      border-radius: 6px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    #search {
+      width: 220px;
+      padding: 6px 10px;
+      font-size: 14px;
+    }
+
+    #toggleCategories {
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    #main {
+      width: 100vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+
+<body>
+  <div id="controls">
+    <input id="search" type="text" placeholder="Buscar persona..." />
+
+    <label id="toggleCategories">
+      <input type="checkbox" id="lockCategories">
+      Bloquear categorías
+    </label>
+  </div>
+
+  <div id="main"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+
+  <script>
+    const chartDom = document.getElementById('main');
+    const myChart = echarts.init(chartDom);
+
+    myChart.showLoading();
+
+    fetch('/static/exchange/db_json4.json')
+      .then(response => response.json())
+      .then(graph => {
+        myChart.hideLoading();
+
+        /* ===== MAPA ID → NOMBRE ===== */
+        const nodeMap = {
+          "5511967969650": "Xiomara",
+          "5516994370778": "Aarón",
+          "5516992428058": "Gaston",
+          "5521990094874": "Dany H Huanca",
+          "51987022922": "Gabriel Medina",
+          "51919481454": "Abraham Rojas Vega",
+          "5516992194661": "Sergio A",
+          "51971462359": "Milagros Anculli",
+          "5516988098573": "Laura",
+          "51978357546": "Raúl Eduardo Farfán Canahua",
+          "5516994365826": "Wilbur",
+          "51997495330": "León PM",
+          "5516992685376": "Ludwin Lope",
+          "5516982260182": "Juan Pablo",
+          "51933198052": "Erika",
+          "5516974051668": "Jessica",
+          "51951005487": "Diego Sevilla",
+          "554497699842": "Patricia Hilario Tacuri Córdova",
+          "553599221005": "Anyela Vega",
+          "51960585432": "Paul Junior Zapana Vargas",
+          "555391502202": "Marybeth Costilla",
+          "5516994437335": "Ana Reyna",
+          "51914234898": "Cristian Castillo",
+          "5511942493253": "Joselin",
+          "51968623818": "Josué Villalta Caballero",
+          "5516992057162": "Rossina Daroitthy",
+          "5519997204085": "Elian Laura",
+          "51971889377": "Felipe Deza",
+          "51921526074": "Albert Quispe",
+          "554588100731": "Dianeth Sara",
+          "5521982328851": "Ruben Lizarbe",
+          "554599204415": "Víctor Martínez",
+          "5516993255125": "Thiago Verissimo Leal Gonçalves",
+          "51960341545": "Alonso alcalá",
+          "51987606870": "José Luís Apaza",
+          "555181722854": "Abraham Rojas",
+          "5522999280474": "Yhony Sumari Misaico",
+          "51982084482": "Diego Astete",
+          "51980581394": "Bianca",
+          "51927469706": "Gabriela Rios",
+          "5522998771929": "Remy",
+          "51925419125": "Héctor Julio",
+          "51948399630": "Marcos Joel Hernández Peña",
+          "5516974060702": "Alejandra Ayulo",
+          "5516993971784": "Carlos",
+          "51965757987": "Jonathan kevin",
+          "5516982348883": "Ana Yenny",
+          "555399836860": "Marco Quiroz",
+          "51976105637": "Manuel Stalin Torres Gonzales",
+          "5516981310936": "Alejandro Sifuentes Clemente",
+          "51920069331": "Karelia",
+          "5516991030906": "Genoveva Flores Luna",
+          "5511983984631": "Ricardo López Paría",
+          "5521969462254": "Francisco Miguel Zamora Inuma",
+          "556592990532": "Katherine Zavaleta",
+          "5516997774410": "Annette",
+          "51987069858": "Eloy Condori",
+          "5516997554505": "Antonio Marco",
+          "34671043057": "Katy Rocio",
+          "51971371827": "Luis Anthony Miñope Gaona",
+          "5516991188638": "Liz",
+          "51941048875": "Wilson Cabanillas",
+          "51965706891": "Fátima Apaza",
+          "51958521971": "Enzo Zavala Cancho",
+          "51941445426": "Josimar Chire",
+          "5511943765369": "Yois Kely Huaman Mendoza",
+          "51984055958": "César Curo Carrión",
+          "51970479859": "Cecília Pacco",
+          "51916091603": "Marco Sobrevilla",
+          "5516991659687": "Katia Miluska Diaz",
+          "51955511912": "Elizabeth Salazar",
+          "5521967705525": "Gerson Ledesma",
+          "5516993513994": "Make Valencia",
+          "5511994372243": "Maria Quispe",
+          "5516988381877": "Gabriel",
+          "5516993613615": "Ritha Huaysara",
+          "51961889323": "Bryan Sanchez",
+          "51975496386": "Marcos Maravi",
+          "51966208402": "Lejzer Castro",
+          "5516994526771": "Paul Bustios",
+          "51941799870": "José Cerdán",
+          "5517991240945": "Rodiak Figueroa",
+          "51979045688": "Marco Montero",
+          "51920862749": "Paul F. Atauchi",
+          "5516991458944": "Kevin Polo",
+          "51935991561": "Yuvisa",
+          "5516991096508": "Gloria Nelly Torres Villanueva",
+          "5511946295096": "Janete Silva",
+          "51993784342": "Norvin Requena",
+          "51979592992": "Grese Hanampa",
+          "51933537681": "Silvia Gonzalez",
+          "51917515154": "Josue Lopez",
+          "51923531285": "Rhonner Politzer Ramírez Flores",
+          "51978294204": "Joe Abdul Vilcherrez Atoche",
+          "51987097742": "Winnie Perez Vite",
+          "51913589459": "Leonel C.",
+          "5519990083077": "Bryan Jorge Ninasivincha"
+        };
+
+
+        /* ===== COLORES POR CATEGORÍA (NUEVO) ===== */
+        const palette = [
+          "#FF0000","#27F5EB","#05b7ed","#34FF21","#edce05",
+          "#3BA272","#0057ba","#9A60B4","#EA7CCC","#2F4554",
+          "#61A0A8","#D48265","#ff7300","#D10070","#B000FF",
+          "#E0F527","#546570","#C4CCD3"
+        ];
+
+        // Asignar color fijo a cada categoría (para leyenda y estilo)
+        graph.categories = (graph.categories || []).map((c, i) => ({
+          ...c,
+          itemStyle: { color: palette[i % palette.length] }
+        }));
+
+        // Asegurar que cada nodo use el color de su categoría
+        // (asume que n.category es índice numérico; si tu JSON trae strings, te lo ajusto)
+        graph.nodes = (graph.nodes || []).map(n => ({
+          ...n,
+          itemStyle: { color: palette[(n.category ?? 0) % palette.length] }
+        }));
+
+        const option = {
+          tooltip: {
+            trigger: 'item',
+            formatter: function (params) {
+              if (params.dataType === 'node') {
+                const d = params.data;
+                return `
+                  <b>${d.name}</b><br/>
+                  📍 Origen: ${d.origin ?? '—'}<br/>
+                  🏠 Residencia: ${d.residence ?? '—'}<br/>
+                  🎓 Ocupación: ${d.occupation ?? '—'}<br/>
+                  💱 Interés: ${d.interest ?? '—'}<br/>
+                  🔗 Contactos que mencionó: ${d.contacts?.length ?? 0}
+                `;
+              }
+              if (params.dataType === 'edge') {
+                return `
+                  🤝 Relación: Y mencionó a X<br/>
+                  ${nodeMap[params.data.source]} → ${nodeMap[params.data.target]}
+                `;
+              }
+            }
+          },
+          legend: {
+            data: (graph.categories || []).map(c => c.name)
+          },
+          series: [{
+            type: 'graph',
+            layout: 'force',
+            data: graph.nodes,
+            links: graph.links,
+            categories: graph.categories,
+            roam: true,
+
+            label: {
+              show: true,
+              position: 'right'
+            },
+
+            labelLayout: { hideOverlap: true },
+
+            scaleLimit: {
+              min: 3,
+              max: 10
+            },
+
+            lineStyle: {
+              color: 'source',
+              curveness: 0.3
+            },
+
+            emphasis: {
+              focus: 'adjacency',
+              lineStyle: { width: 8 }
+            }
+          }]
+        };
+
+        myChart.setOption(option);
+
+        /* ===== CENTRAR Y AGRANDAR ===== */
+        const INITIAL_ZOOM = 1.8;
+
+        function centerGraph() {
+          myChart.dispatchAction({
+            type: 'graphRoam',
+            seriesIndex: 0,
+            zoom: INITIAL_ZOOM,
+            originX: myChart.getWidth() / 2,
+            originY: myChart.getHeight() / 2
+          });
+        }
+
+        setTimeout(centerGraph, 300);
+
+        /* ===== BUSCADOR ===== */
+        const searchInput = document.getElementById('search');
+        searchInput.addEventListener('input', e => {
+          const keyword = e.target.value.trim().toLowerCase();
+
+          myChart.dispatchAction({ type: 'downplay', seriesIndex: 0 });
+          if (!keyword) return;
+
+          const node = (graph.nodes || []).find(n =>
+            n.name && n.name.toLowerCase().includes(keyword)
+          );
+
+          if (node) {
+            myChart.dispatchAction({
+              type: 'highlight',
+              seriesIndex: 0,
+              name: node.name
+            });
+
+            myChart.dispatchAction({
+              type: 'focusNodeAdjacency',
+              seriesIndex: 0,
+              name: node.name
+            });
+          }
+        });
+
+        /* ===== CHECK CATEGORIES ===== */
+        const lockCategories = document.getElementById('lockCategories');
+        lockCategories.addEventListener('change', e => {
+          const locked = e.target.checked;
+          const selected = {};
+
+          (graph.categories || []).forEach(cat => {
+            selected[cat.name] = !locked;
+          });
+
+          myChart.setOption({ legend: { selected } });
+        });
+
+        /* ===== RESIZE + RECENTRAR ===== */
+        window.addEventListener('resize', () => {
+          myChart.resize();
+          centerGraph();
+        });
+
+        const resizeObserver = new ResizeObserver(() => {
+          myChart.resize();
+          centerGraph();
+        });
+
+        resizeObserver.observe(chartDom);
+      })
+      .catch(console.error);
+  </script>
+
+</body>
+</html>

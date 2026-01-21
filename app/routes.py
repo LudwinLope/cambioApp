@@ -67,3 +67,13 @@ def logout():
 def dashboard():
     return render_template("dashboard.html")
 
+# Exchange:
+from flask import send_from_directory
+from flask import current_app, send_from_directory
+import os
+
+#@auth_bp.get("/exchange")
+@auth_bp.route("/exchange", methods=["GET"], strict_slashes=False)
+def exchange():
+    carpeta = os.path.join(current_app.static_folder, "exchange")
+    return send_from_directory(carpeta, "index.html")

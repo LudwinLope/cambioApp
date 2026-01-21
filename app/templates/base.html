@@ -2,14 +2,17 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>{{ title or "MyApp" }}</title>
+  <title>{{ title or "ldwnlp" }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}?v=1">
+  <!-- MARCADOR BASE: 2026-01-14 -->
 </head>
 <body>
   {% with messages = get_flashed_messages(with_categories=true) %}
     {% if messages %}
-      <ul>
+      <ul class="flash">
       {% for category, msg in messages %}
-        <li><strong>{{ category }}</strong>: {{ msg }}</li>
+        <li class="{{ category }}"><strong>{{ category }}</strong>: {{ msg }}</li>
       {% endfor %}
       </ul>
     {% endif %}

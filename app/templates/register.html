@@ -1,13 +1,28 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Register</h1>
-<form method="post">
-  {{ form.hidden_tag() }}
-  <p>{{ form.email.label }}<br>{{ form.email() }}</p>
-  <p>{{ form.password.label }}<br>{{ form.password() }}</p>
-  <p>{{ form.confirm.label }}<br>{{ form.confirm() }}</p>
-  <p>{{ form.submit() }}</p>
-</form>
-<a href="{{ url_for('auth.login') }}">Login</a>
-{% endblock %}
 
+<div class="container">
+  <div class="card">
+    <h1>Register</h1>
+
+    <form method="post">
+      {{ form.hidden_tag() }}
+
+      <label>{{ form.email.label }}</label>
+      {{ form.email(placeholder="you@example.com") }}
+
+      <label>{{ form.password.label }}</label>
+      {{ form.password(placeholder="••••••••") }}
+
+      <label>{{ form.confirm.label }}</label>
+      {{ form.confirm(placeholder="••••••••") }}
+
+      <div class="row" style="margin-top: 14px;">
+        {{ form.submit(class_="btn") }}
+        <a class="btn secondary" href="{{ url_for('auth.login') }}">Login</a>
+      </div>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

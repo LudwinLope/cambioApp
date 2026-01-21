@@ -1,0 +1,2322 @@
+{
+"nodes": [
+    {
+      "id": "5511967969650",
+      "name": "Xiomara",
+      "occupation": "Doctorado en Matemáticas – ICMC/USP",
+      "origin": "Arequipa, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51919481454", "5516982260182"],
+      "category": 1,
+      "symbolSize": 9
+    },
+    {
+      "id": "5516994370778",
+      "name": "Aarón",
+      "occupation": "Doctorado en Física – IFSC/USP",
+      "origin": "Callao, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, euros y soles",
+      "value": 7,
+      "contacts": ["5516992428058", "5516997774410"],
+      "category": 2,
+      "symbolSize": 10
+    },
+    {
+      "id": "5516992428058",
+      "name": "Gaston",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 12,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "5521990094874",
+      "name": "Dany H Huanca",
+      "occupation": "Doctorado en Ingeniería Eléctrica– COPPE/UFRJ",
+      "origin": "Apurimac, Perú",
+      "residence": "Rio de Janeiro",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51941048875", "51971371827"],
+      "category": 3,
+      "symbolSize": 1
+    },
+    {
+      "id": "51987022922",
+      "name": "Gabriel Medina",
+      "occupation": "Mestrado en matemática– USP",
+      "origin": "Lima, Perú",
+      "residence": "Lima",
+      "interest": "Cambio de reales, euros y soles",
+      "value": 8,
+      "contacts": ["51919481454", "51965757987", "5516982260182", "51913589459", "51975496386"],
+      "category": 4,
+      "symbolSize": 5
+    },
+    {
+      "id": "51919481454",
+      "name": "Abraham Rojas Vega",
+      "occupation": "Doctorado en Matemática ICMC-USP",
+      "origin": "Lima, Perú",
+      "residence": "Lima, Perú",
+      "interest": "Cambio de dólares y soles",
+      "value": 5,
+      "contacts": ["5516992685376", "5516974060702", "5516982260182", "5511967969650", "51920069331"],
+      "category": 4,
+      "symbolSize": 30
+    },
+    {
+      "id": "5516992194661",
+      "name": "Sergio A",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 11,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 2
+    },
+    {
+      "id": "51971462359",
+      "name": "Milagros Anculli",
+      "occupation": "Matemática - ICMC USP",
+      "origin": "Lima, Perú.",
+      "residence": "Lima, Perú.",
+      "interest": "Cambio de reales y soles",
+      "value": 13,
+      "contacts": ["51919481454", "51941048875", "5516988098573"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516988098573",
+      "name": "Laura",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 4,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 8
+    },
+    {
+      "id": "51978357546",
+      "name": "Raúl Eduardo Farfán Canahua",
+      "occupation": "Doctorado en Ingeniería Eléctrica USP",
+      "origin": "Cusco, Perú.",
+      "residence": "Sao Carlos, BR.",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["5516992685376", "5516994365826"],
+      "category": 5,
+      "symbolSize": 3
+    },
+    {
+      "id": "5516994365826",
+      "name": "Wilbur",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 13,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 7
+    },
+    {
+      "id": "51997495330",
+      "name": "León PM",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 13,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516992685376",
+      "name": "Ludwin Lope",
+      "occupation": "Doctorado – ICMC/USP",
+      "origin": "Macusani- Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 11,
+      "contacts": ["51919481454", "5516982260182"],
+      "category": 6,
+      "symbolSize": 20
+    },
+    {
+      "id": "5516982260182",
+      "name": "Juan Pablo",
+      "occupation": "Doctorado estadística en ICMC/USP",
+      "origin": "Layo-Cusco, Perú",
+      "residence": "Chachapoyas ",
+      "interest": "Cambio de reales y soles",
+      "value": 15,
+      "contacts": ["51919481454", "5516992685376", "5516988098573", "5516994526771", "554497699842", "51975496386", "5516997554505", "51916091603", "51955511912", "51987022922", "51941445426", "5516994370778", "5511967969650", "5516994365826", "51976105637", "51920069331", "5516993613615", "51997495330"],
+      "category": 5,
+      "symbolSize": 14
+    },
+    {
+      "id": "51933198052",
+      "name": "Erika",
+      "occupation": "Doctorado en Física – IFSC/USP",
+      "origin": "SMP, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dolares y soles",
+      "value": 9,
+      "contacts": ["51919481454", "5516974051668"],
+      "category": 4,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516974051668",
+      "name": "Jessica",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 4,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 8
+    },
+    {
+      "id": "51951005487",
+      "name": "Diego Sevilla",
+      "occupation": "Maestría en Física – IFSC/USP",
+      "origin": "Chiclayo, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dólares y soles",
+      "value": 11,
+      "contacts": ["5516994370778", "5511942493253"],
+      "category": 7,
+      "symbolSize": 1
+    },
+    {
+      "id": "554497699842",
+      "name": "Patricia Hilario Tacuri Córdova",
+      "occupation": "Profesora en la Universidade Estadual de Maringá, Paraná",
+      "origin": "Arequipa, Perú",
+      "residence": "Maringá, PR",
+      "interest": "Cambio de reales, soles y dolares",
+      "value": 12,
+      "contacts": ["554588100731", "5516982260182", "51919481454"],
+      "category": 1,
+      "symbolSize": 6
+    },
+    {
+      "id": "553599221005",
+      "name": "Anyela Vega",
+      "occupation": "Doctorado en Suelos – UFLA",
+      "origin": "Moquegua, Perú",
+      "residence": "Lavras",
+      "interest": "Cambio de reales y soles",
+      "value": 13,
+      "contacts": ["5511942493253"],
+      "category": 8,
+      "symbolSize": 1
+    },
+    {
+      "id": "51960585432",
+      "name": "Paul Junior Zapana Vargas",
+      "occupation": "Doctorado en Ingeniería Eléctrica USP",
+      "origin": "Cusco, Perú.",
+      "residence": "Sao Carlos, BR.",
+      "interest": "Cambio de reales y soles",
+      "value": 12,
+      "contacts": ["5516992685376", "5516994370778"],
+      "category": 5,
+      "symbolSize": 0
+    },
+    {
+      "id": "555391502202",
+      "name": "Marybeth Costilla",
+      "occupation": "Doctorado en Oceanografía Biológica - FURG",
+      "origin": "Lima, Perú",
+      "residence": "Rio Grande, Brasil",
+      "interest": "Cambio de reales y soles",
+      "value": 10,
+      "contacts": ["51987606870", "51970479859", "51968623818", "555399836860"],
+      "category": 4,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516994437335",
+      "name": "Ana Reyna",
+      "occupation": "Doctorado – ICMC/USP",
+      "origin": "Trujillo- Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 12,
+      "contacts": ["51919481454", "5516992685376"],
+      "category": 9,
+      "symbolSize": 1
+    },
+    {
+      "id": "51914234898",
+      "name": "Cristian Castillo",
+      "occupation": "Intercambio en la USP",
+      "origin": "Puno, Perú",
+      "residence": "No sé xd",
+      "interest": "Cambio de reales, soles, dólares",
+      "value": 14,
+      "contacts": ["51919481454", "51965757987", "5516994365826"],
+      "category": 6,
+      "symbolSize": 1
+    },
+    {
+      "id": "5511942493253",
+      "name": "Joselin",
+      "occupation": "Doctorado en fitopatología – UFLA",
+      "origin": "Chiclayo, Perú",
+      "residence": "Lavras",
+      "interest": "Cambio de reales y soles",
+      "value": 9,
+      "contacts": ["51951005487", "553599221005"],
+      "category": 7,
+      "symbolSize": 3
+    },
+    {
+      "id": "51968623818",
+      "name": "Josué Villalta Caballero",
+      "occupation": "Maestría en Administración PPGA - FURG",
+      "origin": "Arequipa,Perú",
+      "residence": "Rio Grande, Brasil",
+      "interest": "Cambio de reales y soles",
+      "value": 3,
+      "contacts": ["51970479859", "555391502202", "555399836860", "51987606870"],
+      "category": 1,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516992057162",
+      "name": "Rossina Daroitthy",
+      "occupation": "Publicidad",
+      "origin": "Lima, Perú.",
+      "residence": "Sao Carlos, BR.",
+      "interest": "Cambio de reales y soles",
+      "value": 2,
+      "contacts": ["51919481454", "51971889377"],
+      "category": 4,
+      "symbolSize": 0
+    },
+    {
+      "id": "5519997204085",
+      "name": "Elian Laura",
+      "occupation": "Doctorado en Ciencia de la Computación– Unicamp",
+      "origin": "Arequipa, Perú",
+      "residence": "Barão Geraldo",
+      "interest": "Cambio de reales",
+      "value": 10,
+      "contacts": ["51919481454", "5516988098573"],
+      "category": 1,
+      "symbolSize": 2
+    },
+    {
+      "id": "51971889377",
+      "name": "Felipe Deza",
+      "occupation": "Maestría Arquitectura USP",
+      "origin": "Lima, Perú.",
+      "residence": "Sao Carlos, BR.",
+      "interest": "Cambio de reales y soles",
+      "value": 13,
+      "contacts": ["5521982328851", "5511943765369", "51978357546", "51980581394"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "51921526074",
+      "name": "Albert Quispe",
+      "occupation": "Maestría en Ingenieria de Produccion - EESC/USP",
+      "origin": "Lima, Perú",
+      "residence": "Sao Carlos, Brasil",
+      "interest": "Cambio de reales y soles",
+      "value": 7,
+      "contacts": ["51919481454", "51920069331"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "554588100731",
+      "name": "Dianeth Sara",
+      "occupation": "Doctorado en Fisica Biomolecular - USP",
+      "origin": "Puno, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 5,
+      "contacts": ["51933198052", "554497699842"],
+      "category": 6,
+      "symbolSize": 6
+    },
+    {
+      "id": "5521982328851",
+      "name": "Ruben Lizarbe",
+      "occupation": "Professor UERJ / Doctorado en el IMPA",
+      "origin": "Lima, Perú.",
+      "residence": "Rio de Janeiro, BR.",
+      "interest": "Cambio de reales y soles",
+      "value": 15,
+      "contacts": ["51987022922"],
+      "category": 4,
+      "symbolSize": 4
+    },
+    {
+      "id": "554599204415",
+      "name": "Víctor Martínez",
+      "occupation": "Profesor UNILA / Doctorado en la UFRJ",
+      "origin": "Lima, Perú",
+      "residence": "Foz de Iguaçu-Paraná, Brasil",
+      "interest": "Cambio de reales y soles",
+      "value": 10,
+      "contacts": ["5521982328851", "51987022922", "5521967705525", "5521969462254"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516993255125",
+      "name": "Thiago Verissimo Leal Gonçalves",
+      "occupation": "Mestrado ICMC",
+      "origin": "São Carlos",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 13,
+      "contacts": ["51919481454"],
+      "category": 0,
+      "symbolSize": 0
+    },
+    {
+      "id": "51960341545",
+      "name": "Alonso alcalá",
+      "occupation": "Mestrado IFSC",
+      "origin": "Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51919481454", "5516994370778"],
+      "category": 0,
+      "symbolSize": 0
+    },
+    {
+      "id": "51987606870",
+      "name": "José Luís Apaza",
+      "occupation": "Mestrado - FURG",
+      "origin": "Lima, Perú",
+      "residence": "Rio Grande, Brasil",
+      "interest": "Cambio reales a soles",
+      "value": 13,
+      "contacts": ["555391502202", "51970479859", "51968623818", "555399836860"],
+      "category": 4,
+      "symbolSize": 5
+    },
+    {
+      "id": "555181722854",
+      "name": "Abraham Rojas",
+      "occupation": "Doutorado Ing. Civil - USP",
+      "origin": "Perú",
+      "residence": "São Paulo",
+      "interest": "Cambio de reales y soles",
+      "value": 10,
+      "contacts": ["51919481454"],
+      "category": 0,
+      "symbolSize": 0
+    },
+    {
+      "id": "5522999280474",
+      "name": "Yhony Sumari Misaico",
+      "occupation": "Maestría en Biociencias y Biotecnologia - UENF",
+      "origin": "Ayacucho, Perú",
+      "residence": "Campos dos Goytacazes, RJ",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["51982084482", "51948399630", "51925419125"],
+      "category": 10,
+      "symbolSize": 4
+    },
+    {
+      "id": "51982084482",
+      "name": "Diego Astete",
+      "occupation": "Estudiante de Maestría de Biotecnología Vegetal - UENF",
+      "origin": "Iquitos, Perú",
+      "residence": "Campos dos Goytacazes",
+      "interest": "Cambio de reales y soles",
+      "value": 13,
+      "contacts": ["51927469706", "51948399630", "5522998771929", "51925419125", "5522999280474"],
+      "category": 11,
+      "symbolSize": 4
+    },
+    {
+      "id": "51980581394",
+      "name": "Bianca",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 14,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "51927469706",
+      "name": "Gabriela Rios",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 9,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 2
+    },
+    {
+      "id": "5522998771929",
+      "name": "Remy",
+      "occupation": "Estudiante de Maestría de Biociencias e Biotecnología- UENF",
+      "origin": "Iquitos, Perú",
+      "residence": "Campos dos Goytacazes",
+      "interest": "Cambio de reales y soles",
+      "value": 10,
+      "contacts": ["51927469706", "51948399630", "51982084482", "51925419125", "5522999280474"],
+      "category": 11,
+      "symbolSize": 2
+    },
+    {
+      "id": "51925419125",
+      "name": "Héctor Julio",
+      "occupation": "Estudiante de Maestría de Biotecnología Vegetal - UENF",
+      "origin": "Iquitos, Perú",
+      "residence": "Campos dos Goytacazes",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["51982084482", "5522998771929", "5522999280474", "51948399630"],
+      "category": 11,
+      "symbolSize": 4
+    },
+    {
+      "id": "51948399630",
+      "name": "Marcos Joel Hernández Peña",
+      "occupation": "Doctorado en Biociencias y Biotecnologia - UENF",
+      "origin": "Ica, Perú",
+      "residence": "Campos dos Goytacazes, RJ",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": [51982084482, 5522999280474, 51925419125],
+      "category": 15,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516974060702",
+      "name": "Alejandra Ayulo",
+      "occupation": "Física, Doctorado UNI",
+      "origin": "Lima, Perú",
+      "residence": "Lima",
+      "interest": "Cambio de reales y soles",
+      "value": 4,
+      "contacts": ["51919481454", "5516982260182", "51933198052", "51920069331", "5516994365826", "554588100731", "5516993971784"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516993971784",
+      "name": "Carlos",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 10,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "51965757987",
+      "name": "Jonathan kevin",
+      "occupation": "Doctorado USP-UFSCAR",
+      "origin": "Cusco",
+      "residence": "Moradia",
+      "interest": "Cambio de euros reales y soles",
+      "value": 15,
+      "contacts": ["51920069331", "51914234898"],
+      "category": 5,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516982348883",
+      "name": "Ana Yenny",
+      "occupation": "Doutoranda Materiais EESC",
+      "origin": "Arequipa",
+      "residence": "São Paulo",
+      "interest": "Cambio de reales, soles e dolares",
+      "value": 10,
+      "contacts": ["554588100731", "5516988098573", "5516992685376"],
+      "category": 1,
+      "symbolSize": 0
+    },
+    {
+      "id": "555399836860",
+      "name": "Marco Quiroz",
+      "occupation": "Mestrado - FURG",
+      "origin": "Arequipa, Perú",
+      "residence": "Rio Grande, Brasil",
+      "interest": "Cambio reales a soles",
+      "value": 13,
+      "contacts": ["51987606870", "51968623818", "51970479859", "555391502202"],
+      "category": 1,
+      "symbolSize": 4
+    },
+    {
+      "id": "51976105637",
+      "name": "Manuel Stalin Torres Gonzales",
+      "occupation": "Doctorado en Matemática UFSCar",
+      "origin": "La libertad, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, soles, dólares y euros",
+      "value": 8,
+      "contacts": ["5516981310936", "5516974051668", "51971371827"],
+      "category": 9,
+      "symbolSize": 7
+    },
+    {
+      "id": "5516981310936",
+      "name": "Alejandro Sifuentes Clemente",
+      "occupation": "Doctorado en Ingeniería Química",
+      "origin": "Lima",
+      "residence": "São Carlos",
+      "interest": "Cambio reales,Soles",
+      "value": 15,
+      "contacts": ["5516974051668", "5511967969650", "51976105637"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "51920069331",
+      "name": "Karelia",
+      "occupation": "Doctorado en Computación",
+      "origin": "Arequipa",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dólares, euros, soles",
+      "value": 5,
+      "contacts": [],
+      "category": 1,
+      "symbolSize": 12
+    },
+    {
+      "id": "5516991030906",
+      "name": "Genoveva Flores Luna",
+      "occupation": "Bióloga/ PhD em Biotecnología",
+      "origin": "Lima, Perú",
+      "residence": "Espírito Santo do Pinhal",
+      "interest": "Cambio de reales, euros y soles",
+      "value": 2,
+      "contacts": ["5516974051668", "51987069858", "5516991188638", "5516993513994"],
+      "category": 4,
+      "symbolSize": 3
+    },
+    {
+      "id": "5511983984631",
+      "name": "Ricardo López Paría",
+      "occupation": "Doutorando - UFSCar (esperando bolsa)",
+      "origin": "Lima, Perú",
+      "residence": "São Carlos, Brasil",
+      "interest": "Cambio soles y dólares a reales",
+      "value": 9,
+      "contacts": ["51987606870", "51971371827", "51958521971", "5517991240945", "5516994370778"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "5521969462254",
+      "name": "Francisco Miguel Zamora Inuma",
+      "occupation": "Profesor UFF/Doctorado en Matemática UFF",
+      "origin": "Lima, Perú",
+      "residence": "Niterói",
+      "interest": "Cambio de reales, soles, dólares y euros",
+      "value": 5,
+      "contacts": ["51987022922", "51955511912", "5521967705525", "554599204415"],
+      "category": 4,
+      "symbolSize": 3
+    },
+    {
+      "id": "556592990532",
+      "name": "Katherine Zavaleta",
+      "occupation": "Professora en Unemat",
+      "origin": "Arequipa, Perú.",
+      "residence": "Arequipa",
+      "interest": "Cambio de reales, para soles ou dólares",
+      "value": 12,
+      "contacts": ["5516982260182", "5516991030906", "554497699842", "5516991659687"],
+      "category": 1,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516997774410",
+      "name": "Annette",
+      "occupation": "Doctorado en Ing. Materiales – EESC-USP",
+      "origin": "Arequipa",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dólares y soles",
+      "value": 9,
+      "contacts": ["5516994370778", "5516992685376", "51987069858"],
+      "category": 1,
+      "symbolSize": 1
+    },
+    {
+      "id": "51987069858",
+      "name": "Eloy Condori",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 13,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516997554505",
+      "name": "Antonio Marco",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 8,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 3
+    },
+    {
+      "id": "34671043057",
+      "name": "Katy Rocio",
+      "occupation": "Doctorado en Estadistica - USP UFSCar",
+      "origin": "Cusco",
+      "residence": "Cusco",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["51965757987", "51920069331"],
+      "category": 5,
+      "symbolSize": 0
+    },
+    {
+      "id": "51971371827",
+      "name": "Luis Anthony Miñope Gaona",
+      "occupation": "Doutorando UFSCAR",
+      "origin": "Chiclayo, Perú",
+      "residence": "São Carlos- Brasil",
+      "interest": "Cambio de reales, soles.",
+      "value": 9,
+      "contacts": ["5516974051668", "5516997554505", "51976105637", "5516994370778"],
+      "category": 7,
+      "symbolSize": 4
+    },
+    {
+      "id": "5516991188638",
+      "name": "Liz",
+      "occupation": "Doctorado en Ciências de computação – ICMC/USP",
+      "origin": "Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dolares y soles",
+      "value": 13,
+      "contacts": ["5511967969650", "5516982260182", "51920069331", "5516992685376", "5516993513994", "5516991030906", "51941445426", "5516988098573"],
+      "category": 0,
+      "symbolSize": 3
+    },
+    {
+      "id": "51941048875",
+      "name": "Wilson Cabanillas",
+      "occupation": "Doctorado IM/UFRJ",
+      "origin": "Chiclayo",
+      "residence": "Rio de Janeiro",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["5521990094874", "51987022922", "51971371827"],
+      "category": 7,
+      "symbolSize": 2
+    },
+    {
+      "id": "51965706891",
+      "name": "Fátima Apaza",
+      "occupation": "Graduação Gestão e análise ambiental - UFSCar",
+      "origin": "Arequipa",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 11,
+      "contacts": ["5516992685376", "5516992194661"],
+      "category": 1,
+      "symbolSize": 0
+    },
+    {
+      "id": "51958521971",
+      "name": "Enzo Zavala Cancho",
+      "occupation": "Mestre em Genética Evolutiva",
+      "origin": "Lima/Los Olivos",
+      "residence": "Lima/Los Olivos",
+      "interest": "cambio de reales a soles",
+      "value": 4,
+      "contacts": ["5511983984631", "5516994370778", "51976105637", "5516992194661"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "51941445426",
+      "name": "Josimar Chire",
+      "occupation": "Cientifico de Datos",
+      "origin": "Tacna",
+      "residence": "Goiás",
+      "interest": "cambio de reales a soles",
+      "value": 10,
+      "contacts": ["5516992685376", "5516982260182", "5516991188638", "5516988098573", "5519997204085"],
+      "category": 12,
+      "symbolSize": 2
+    },
+    {
+      "id": "5511943765369",
+      "name": "Yois Kely Huaman Mendoza",
+      "occupation": "Maestría en Ing. Electrica – EESC-USP",
+      "origin": "Cusco",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dólares y soles",
+      "value": 8,
+      "contacts": ["51984055958", "51941799870", "5516992685376", "5516991659687", "51978357546"],
+      "category": 5,
+      "symbolSize": 4
+    },
+    {
+      "id": "51984055958",
+      "name": "César Curo Carrión",
+      "occupation": "Doctorado en Ing. Electrica – EESC-USP",
+      "origin": "Cusco",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales, dólares, soles y euros",
+      "value": 2,
+      "contacts": ["5511943765369", "51978357546"],
+      "category": 5,
+      "symbolSize": 1
+    },
+    {
+      "id": "51970479859",
+      "name": "Cecília Pacco",
+      "occupation": "Doctorado en Ingenieria e ciências de alimentos",
+      "origin": "Arequipa",
+      "residence": "Rio Grande-RS",
+      "interest": "Cambio de reales, dólares, soles y euros",
+      "value": 15,
+      "contacts": ["51987606870", "51968623818", "555399836860", "555391502202"],
+      "category": 1,
+      "symbolSize": 4
+    },
+    {
+      "id": "51916091603",
+      "name": "Marco Sobrevilla",
+      "occupation": "Doctorado en Computación",
+      "origin": "Lima",
+      "residence": "Edimburgo",
+      "interest": "Cambio de reales, dólares, soles, libras y euros",
+      "value": 15,
+      "contacts": ["51965757987", "5516988098573", "5516994365826", "51919481454", "5516997554505"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516991659687",
+      "name": "Katia Miluska Diaz",
+      "occupation": "Doctorado UFSCar",
+      "origin": "Huaraz, Perú",
+      "residence": "Campinas",
+      "interest": "Cambio de reales, soles, dólares y euros",
+      "value": 5,
+      "contacts": ["5511943765369", "556592990532", "51976105637"],
+      "category": 13,
+      "symbolSize": 3
+    },
+    {
+      "id": "51955511912",
+      "name": "Elizabeth Salazar",
+      "occupation": "Profesora UNI/ Doctorado UFRJ",
+      "origin": "Lima, Perú",
+      "residence": "Lima",
+      "interest": "Cambio de reales, soles, dólares y euros",
+      "value": 4,
+      "contacts": ["5516982260182", "554497699842", "5521982328851", "5521969462254"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5521967705525",
+      "name": "Gerson Ledesma",
+      "occupation": "professor da UERJ.",
+      "origin": "Lima , Perú",
+      "residence": "Rio de Janeiro",
+      "interest": "Cambio de reales y soles",
+      "value": 4,
+      "contacts": ["554497699842", "554599204415", "5521969462254", "5521982328851"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "5516993513994",
+      "name": "Make Valencia",
+      "occupation": "Doutorado na USP.",
+      "origin": "Arequipa, Perú",
+      "residence": "são Carlos, SP",
+      "interest": "Cambio de reales y soles",
+      "value": 5,
+      "contacts": ["5516991188638", "5516974051668", "51933198052", "5516991030906", "5519997204085", "5516994526771", "5516982260182"],
+      "category": 1,
+      "symbolSize": 3
+    },
+    {
+      "id": "5511994372243",
+      "name": "Maria Quispe",
+      "occupation": "Maestría na USP",
+      "origin": "Lima, Perú",
+      "residence": "são Carlos, SP",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51920069331", "51919481454", "5516988381877"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516988381877",
+      "name": "Gabriel",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 15,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516993613615",
+      "name": "Ritha Huaysara",
+      "occupation": "Doctorado en Estatística ICMC",
+      "origin": "Arequipa, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 12,
+      "contacts": ["5511967969650", "51919481454", "5516982260182"],
+      "category": 1,
+      "symbolSize": 1
+    },
+    {
+      "id": "51961889323",
+      "name": "Bryan Sanchez",
+      "occupation": "mestrado geotecnia – USP",
+      "origin": "Lima, Perú",
+      "residence": "Sao Carlos",
+      "interest": "Cambio de reales/soles",
+      "value": 2,
+      "contacts": ["51919481454", "51920069331"],
+      "category": 4,
+      "symbolSize": 0
+    },
+    {
+      "id": "51975496386",
+      "name": "Marcos Maravi",
+      "occupation": "Docente UNMSM y UCSUR",
+      "origin": "Lima, Perú",
+      "residence": "Comas, Lima",
+      "interest": "Cambio de reales y soles",
+      "value": 6,
+      "contacts": ["51919481454", "5516974060702", "5516994437335", "51976105637", "51971462359", "5516991659687"],
+      "category": 4,
+      "symbolSize": 4
+    },
+    {
+      "id": "51966208402",
+      "name": "Lejzer Castro",
+      "occupation": "Doctorando en Matemática – UFSCar",
+      "origin": "Lima PE",
+      "residence": "São Carlos BR",
+      "interest": "Cambio de reales y soles",
+      "value": 4,
+      "contacts": ["51919481454", "5511967969650", "5516992685376"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516994526771",
+      "name": "Paul Bustios",
+      "occupation": "Ing. de software en Google",
+      "origin": "Arequipa, Perú",
+      "residence": "Sao Paulo BR",
+      "interest": "Cambio de reales y soles",
+      "value": 7,
+      "contacts": ["5516982260182", "51916091603", "5516993513994", "5516991458944", "5511967969650", "51975496386", "5516992685376"],
+      "category": 1,
+      "symbolSize": 2
+    },
+    {
+      "id": "51941799870",
+      "name": "José Cerdán",
+      "occupation": "Doctorado en ciencias ambientales",
+      "origin": "Trujillo, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de soles, reales.",
+      "value": 3,
+      "contacts": ["5511943765369", "5516992685376", "51919481454"],
+      "category": 9,
+      "symbolSize": 1
+    },
+    {
+      "id": "5517991240945",
+      "name": "Rodiak Figueroa",
+      "occupation": "Post-Doctorado en Matemática",
+      "origin": "Trujillo, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de soles, reales.",
+      "value": 13,
+      "contacts": ["51919481454", "51976105637"],
+      "category": 9,
+      "symbolSize": 2
+    },
+    {
+      "id": "51979045688",
+      "name": "Marco Montero",
+      "occupation": "Doctorado en biotecnologia",
+      "origin": "chiclayo, Perú",
+      "residence": "vitória ES",
+      "interest": "Cambio de soles, reales.",
+      "value": 12,
+      "contacts": ["5516994370778"],
+      "category": 7,
+      "symbolSize": 0
+    },
+    {
+      "id": "51920862749",
+      "name": "Paul F. Atauchi",
+      "occupation": "Doctorado en Computación",
+      "origin": "Cusco",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales a soles",
+      "value": 6,
+      "contacts": ["51935991561", "5511967969650", "51920069331", "5516994365826", "554588100731"],
+      "category": 5,
+      "symbolSize": 0
+    },
+    {
+      "id": "5516991458944",
+      "name": "Kevin Polo",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 15,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "51935991561",
+      "name": "Yuvisa",
+      "occupation": "-",
+      "origin": "-",
+      "residence": "-",
+      "interest": "-",
+      "value": 5,
+      "contacts": [],
+      "category": 0,
+      "symbolSize": 1
+    },
+    {
+      "id": "5516991096508",
+      "name": "Gloria Nelly Torres Villanueva",
+      "occupation": "técnica em mecânica. Desempregada. Hago marmitas los domingos.",
+      "origin": "Arequipa, Perú.",
+      "residence": "Sao Carlos, BR.",
+      "interest": "Cambio de reales para soles",
+      "value": 14,
+      "contacts": [],
+      "category": 1,
+      "symbolSize": 0
+    },
+    {
+      "id": "5511946295096",
+      "name": "Janete Silva",
+      "occupation": "doc em sociologia",
+      "origin": "Lima",
+      "residence": "São Carlos/ Brasil",
+      "interest": "cambio de reales /soles",
+      "value": 15,
+      "contacts": ["51919481454", "5516974051668", "51993784342", "5517991240945"],
+      "category": 4,
+      "symbolSize": 1
+    },
+    {
+      "id": "51993784342",
+      "name": "Norvin Requena",
+      "occupation": "Doctorando en Hidráulica y Saneamiento",
+      "origin": "Lima",
+      "residence": "São Carlos/ Brasil",
+      "interest": "cambio de reales /soles",
+      "value": 11,
+      "contacts": ["5511946295096", "51919481454"],
+      "category": 4,
+      "symbolSize": 2
+    },
+    {
+      "id": "51979592992",
+      "name": "Grese Hanampa",
+      "occupation": "mestrado en engenharia de Produção – USP",
+      "origin": "Lima, Perú",
+      "residence": "Sao Carlos",
+      "interest": "Cambio de reales/soles",
+      "value": 10,
+      "contacts": ["51919481454", "51993784342", "5516992685376", "5516974051668"],
+      "category": 4,
+      "symbolSize": 0
+    },
+    {
+      "id": "51933537681",
+      "name": "Silvia Gonzalez",
+      "occupation": "mestrado en IFSC",
+      "origin": "Iquitos, Perú",
+      "residence": "Sao Carlos",
+      "interest": "Cambio de reales/soles",
+      "value": 7,
+      "contacts": ["51920069331", "5516992685376"],
+      "category": 11,
+      "symbolSize": 1
+    },
+    {
+      "id": "51917515154",
+      "name": "Josue Lopez",
+      "occupation": "maestría en Biologia Molecular UNICAMP",
+      "origin": "Iquitos, Perú",
+      "residence": "Campinas",
+      "interest": "Cambio de reales/soles/dólares",
+      "value": 8,
+      "contacts": ["51933537681", "51920069331", "5516992685376"],
+      "category": 11,
+      "symbolSize": 0
+    },
+    {
+      "id": "51923531285",
+      "name": "Rhonner Politzer Ramírez Flores",
+      "occupation": "Maestría en Geotecnia en la EESC-USP",
+      "origin": "Huánuco, Perú",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51919481454", "5516992685376", "51921526074", "5511994372243", "5516994365826"],
+      "category": 14,
+      "symbolSize": 0
+    },
+    {
+      "id": "51978294204",
+      "name": "Joe Abdul Vilcherrez Atoche ",
+      "occupation": "Doctorado en Genética y Mejoramiento de Plantas - USP",
+      "origin": "Chiclayo, Perú",
+      "residence": "Piracicaba, SP",
+      "interest": "Cambio de reales y soles ",
+      "value": 8,
+      "contacts": ["5511942493253"],
+      "category": 7,
+      "symbolSize": 0
+    },
+    {
+      "id": "51987097742",
+      "name": "Winnie Perez Vite",
+      "occupation": "Maestría en química IQSC-USP",
+      "origin": "Lima",
+      "residence": "São Carlos",
+      "interest": "Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["51933198052", "554588100731", "5516994370778"],
+      "category": 4,
+      "symbolSize": 0
+    },
+    {
+      "id": "51913589459",
+      "name": "Leonel C.",
+      "occupation": "Doutorando em  matemática, USP.",
+      "origin": "Arequipa",
+      "residence": "São Paulo",
+      "interest": "Soles, reales y (talvez futuramente) dólares.",
+      "value": 8,
+      "contacts": ["51919481454", "5516988098573", "51966208402", "5516992685376", "51975496386", "554588100731", "51971462359"],
+      "category": 1,
+      "symbolSize": 1
+    },
+    {
+      "id": "5519990083077",
+      "name": " Bryan Jorge Ninasivincha",
+      "occupation": "Doctorado engenharia ambiental PPG-SEA/USP",
+      "origin": "Salamanca,  Arequipa, Perú",
+      "residence": "São Carlos, Pirassununga ",
+      "interest": " Cambio de reales y soles",
+      "value": 8,
+      "contacts": ["5516992685376", "51919481454", "5511967969650", "554497699842", "5516982260182"],
+      "category": 1,
+      "symbolSize": 0
+    }
+  ],
+  "links": [
+    {
+      "source": "5511967969650",
+      "target": "51919481454"
+    },
+    {
+      "source": "5511967969650",
+      "target": "5516982260182"
+    },
+    {
+      "source": "5516994370778",
+      "target": "5516992428058"
+    },
+    {
+      "source": "5516994370778",
+      "target": "5516997774410"
+    },
+    {
+      "source": "5521990094874",
+      "target": "51941048875"
+    },
+    {
+      "source": "5521990094874",
+      "target": "51971371827"
+    },
+    {
+      "source": "51987022922",
+      "target": "51919481454"
+    },
+    {
+      "source": "51987022922",
+      "target": "51965757987"
+    },
+    {
+      "source": "51987022922",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51987022922",
+      "target": "51913589459"
+    },
+    {
+      "source": "51987022922",
+      "target": "51975496386"
+    },
+    {
+      "source": "51971462359",
+      "target": "51919481454"
+    },
+    {
+      "source": "51971462359",
+      "target": "51941048875"
+    },
+    {
+      "source": "51971462359",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51978357546",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51978357546",
+      "target": "5516994365826"
+    },
+    {
+      "source": "5516992685376",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516992685376",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51933198052",
+      "target": "51919481454"
+    },
+    {
+      "source": "51933198052",
+      "target": "5516974051668"
+    },
+    {
+      "source": "51951005487",
+      "target": "5516994370778"
+    },
+    {
+      "source": "51951005487",
+      "target": "5511942493253"
+    },
+    {
+      "source": "554497699842",
+      "target": "554588100731"
+    },
+    {
+      "source": "554497699842",
+      "target": "5516982260182"
+    },
+    {
+      "source": "554497699842",
+      "target": "51919481454"
+    },
+    {
+      "source": "553599221005",
+      "target": "5511942493253"
+    },
+    {
+      "source": "51960585432",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51960585432",
+      "target": "5516994370778"
+    },
+    {
+      "source": "555391502202",
+      "target": "51987606870"
+    },
+    {
+      "source": "555391502202",
+      "target": "51970479859"
+    },
+    {
+      "source": "555391502202",
+      "target": "51968623818"
+    },
+    {
+      "source": "555391502202",
+      "target": "555399836860"
+    },
+    {
+      "source": "5516994437335",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516994437335",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51914234898",
+      "target": "51919481454"
+    },
+    {
+      "source": "51914234898",
+      "target": "51965757987"
+    },
+    {
+      "source": "51914234898",
+      "target": "5516994365826"
+    },
+    {
+      "source": "5511942493253",
+      "target": "51951005487"
+    },
+    {
+      "source": "5511942493253",
+      "target": "553599221005"
+    },
+    {
+      "source": "51968623818",
+      "target": "51970479859"
+    },
+    {
+      "source": "51968623818",
+      "target": "555391502202"
+    },
+    {
+      "source": "51968623818",
+      "target": "555399836860"
+    },
+    {
+      "source": "51968623818",
+      "target": "51987606870"
+    },
+    {
+      "source": "5516992057162",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516992057162",
+      "target": "51971889377"
+    },
+    {
+      "source": "5519997204085",
+      "target": "51919481454"
+    },
+    {
+      "source": "5519997204085",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51971889377",
+      "target": "5521982328851"
+    },
+    {
+      "source": "51971889377",
+      "target": "5511943765369"
+    },
+    {
+      "source": "51971889377",
+      "target": "51978357546"
+    },
+    {
+      "source": "51971889377",
+      "target": "51980581394"
+    },
+    {
+      "source": "51921526074",
+      "target": "51919481454"
+    },
+    {
+      "source": "51921526074",
+      "target": "51920069331"
+    },
+    {
+      "source": "554588100731",
+      "target": "51933198052"
+    },
+    {
+      "source": "554588100731",
+      "target": "554497699842"
+    },
+    {
+      "source": "5521982328851",
+      "target": "51987022922"
+    },
+    {
+      "source": "554599204415",
+      "target": "5521982328851"
+    },
+    {
+      "source": "554599204415",
+      "target": "51987022922"
+    },
+    {
+      "source": "554599204415",
+      "target": "5521967705525"
+    },
+    {
+      "source": "554599204415",
+      "target": "5521969462254"
+    },
+    {
+      "source": "5516993255125",
+      "target": "51919481454"
+    },
+    {
+      "source": "51960341545",
+      "target": "51919481454"
+    },
+    {
+      "source": "51960341545",
+      "target": "5516994370778"
+    },
+    {
+      "source": "51987606870",
+      "target": "555391502202"
+    },
+    {
+      "source": "51987606870",
+      "target": "51970479859"
+    },
+    {
+      "source": "51987606870",
+      "target": "51968623818"
+    },
+    {
+      "source": "51987606870",
+      "target": "555399836860"
+    },
+    {
+      "source": "555181722854",
+      "target": "51919481454"
+    },
+    {
+      "source": "5522999280474",
+      "target": "51982084482"
+    },
+    {
+      "source": "5522999280474",
+      "target": "51948399630"
+    },
+    {
+      "source": "5522999280474",
+      "target": "51925419125"
+    },
+    {
+      "source": "51982084482",
+      "target": "51927469706"
+    },
+    {
+      "source": "51982084482",
+      "target": "51948399630"
+    },
+    {
+      "source": "51982084482",
+      "target": "5522998771929"
+    },
+    {
+      "source": "51982084482",
+      "target": "51925419125"
+    },
+    {
+      "source": "51982084482",
+      "target": "5522999280474"
+    },
+    {
+      "source": "5522998771929",
+      "target": "51927469706"
+    },
+    {
+      "source": "5522998771929",
+      "target": "51948399630"
+    },
+    {
+      "source": "5522998771929",
+      "target": "51982084482"
+    },
+    {
+      "source": "5522998771929",
+      "target": "51925419125"
+    },
+    {
+      "source": "5522998771929",
+      "target": "5522999280474"
+    },
+    {
+      "source": "51925419125",
+      "target": "51982084482"
+    },
+    {
+      "source": "51925419125",
+      "target": "5522998771929"
+    },
+    {
+      "source": "51925419125",
+      "target": "5522999280474"
+    },
+    {
+      "source": "51925419125",
+      "target": "51948399630"
+    },
+    {
+      "source": "5516974060702",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516974060702",
+      "target": "5516982260182"
+    },
+    {
+      "source": "5516974060702",
+      "target": "51933198052"
+    },
+    {
+      "source": "5516974060702",
+      "target": "51920069331"
+    },
+    {
+      "source": "5516974060702",
+      "target": "5516994365826"
+    },
+    {
+      "source": "5516974060702",
+      "target": "554588100731"
+    },
+    {
+      "source": "5516974060702",
+      "target": "5516993971784"
+    },
+    {
+      "source": "51965757987",
+      "target": "51920069331"
+    },
+    {
+      "source": "51965757987",
+      "target": "51914234898"
+    },
+    {
+      "source": "5516982348883",
+      "target": "554588100731"
+    },
+    {
+      "source": "5516982348883",
+      "target": "5516988098573"
+    },
+    {
+      "source": "5516982348883",
+      "target": "5516992685376"
+    },
+    {
+      "source": "555399836860",
+      "target": "51987606870"
+    },
+    {
+      "source": "555399836860",
+      "target": "51968623818"
+    },
+    {
+      "source": "555399836860",
+      "target": "51970479859"
+    },
+    {
+      "source": "555399836860",
+      "target": "555391502202"
+    },
+    {
+      "source": "51976105637",
+      "target": "5516981310936"
+    },
+    {
+      "source": "51976105637",
+      "target": "5516974051668"
+    },
+    {
+      "source": "51976105637",
+      "target": "51971371827"
+    },
+    {
+      "source": "5516981310936",
+      "target": "5516974051668"
+    },
+    {
+      "source": "5516981310936",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5516981310936",
+      "target": "51976105637"
+    },
+    {
+      "source": "5516991030906",
+      "target": "5516974051668"
+    },
+    {
+      "source": "5516991030906",
+      "target": "51987069858"
+    },
+    {
+      "source": "5516991030906",
+      "target": "5516991188638"
+    },
+    {
+      "source": "5516991030906",
+      "target": "5516993513994"
+    },
+    {
+      "source": "5511983984631",
+      "target": "51987606870"
+    },
+    {
+      "source": "5511983984631",
+      "target": "51971371827"
+    },
+    {
+      "source": "5511983984631",
+      "target": "51958521971"
+    },
+    {
+      "source": "5511983984631",
+      "target": "5517991240945"
+    },
+    {
+      "source": "5511983984631",
+      "target": "5516994370778"
+    },
+    {
+      "source": "5521969462254",
+      "target": "51987022922"
+    },
+    {
+      "source": "5521969462254",
+      "target": "51955511912"
+    },
+    {
+      "source": "5521969462254",
+      "target": "5521967705525"
+    },
+    {
+      "source": "5521969462254",
+      "target": "554599204415"
+    },
+    {
+      "source": "556592990532",
+      "target": "5516982260182"
+    },
+    {
+      "source": "556592990532",
+      "target": "5516991030906"
+    },
+    {
+      "source": "556592990532",
+      "target": "554497699842"
+    },
+    {
+      "source": "556592990532",
+      "target": "5516991659687"
+    },
+    {
+      "source": "5516997774410",
+      "target": "5516994370778"
+    },
+    {
+      "source": "5516997774410",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5516997774410",
+      "target": "51987069858"
+    },
+    {
+      "source": "34671043057",
+      "target": "51965757987"
+    },
+    {
+      "source": "34671043057",
+      "target": "51920069331"
+    },
+    {
+      "source": "51971371827",
+      "target": "5516974051668"
+    },
+    {
+      "source": "51971371827",
+      "target": "5516997554505"
+    },
+    {
+      "source": "51971371827",
+      "target": "51976105637"
+    },
+    {
+      "source": "51971371827",
+      "target": "5516994370778"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5516982260182"
+    },
+    {
+      "source": "5516991188638",
+      "target": "51920069331"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5516993513994"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5516991030906"
+    },
+    {
+      "source": "5516991188638",
+      "target": "51941445426"
+    },
+    {
+      "source": "5516991188638",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51941048875",
+      "target": "5521990094874"
+    },
+    {
+      "source": "51941048875",
+      "target": "51987022922"
+    },
+    {
+      "source": "51941048875",
+      "target": "51971371827"
+    },
+    {
+      "source": "51965706891",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51965706891",
+      "target": "5516992194661"
+    },
+    {
+      "source": "51958521971",
+      "target": "5511983984631"
+    },
+    {
+      "source": "51958521971",
+      "target": "5516994370778"
+    },
+    {
+      "source": "51958521971",
+      "target": "51976105637"
+    },
+    {
+      "source": "51958521971",
+      "target": "5516992194661"
+    },
+    {
+      "source": "51941445426",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51941445426",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51941445426",
+      "target": "5516991188638"
+    },
+    {
+      "source": "51941445426",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51941445426",
+      "target": "5519997204085"
+    },
+    {
+      "source": "5511943765369",
+      "target": "51984055958"
+    },
+    {
+      "source": "5511943765369",
+      "target": "51941799870"
+    },
+    {
+      "source": "5511943765369",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5511943765369",
+      "target": "5516991659687"
+    },
+    {
+      "source": "5511943765369",
+      "target": "51978357546"
+    },
+    {
+      "source": "51984055958",
+      "target": "5511943765369"
+    },
+    {
+      "source": "51984055958",
+      "target": "51978357546"
+    },
+    {
+      "source": "51970479859",
+      "target": "51987606870"
+    },
+    {
+      "source": "51970479859",
+      "target": "51968623818"
+    },
+    {
+      "source": "51970479859",
+      "target": "555399836860"
+    },
+    {
+      "source": "51970479859",
+      "target": "555391502202"
+    },
+    {
+      "source": "51916091603",
+      "target": "51965757987"
+    },
+    {
+      "source": "51916091603",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51916091603",
+      "target": "5516994365826"
+    },
+    {
+      "source": "51916091603",
+      "target": "51919481454"
+    },
+    {
+      "source": "51916091603",
+      "target": "5516997554505"
+    },
+    {
+      "source": "5516991659687",
+      "target": "5511943765369"
+    },
+    {
+      "source": "5516991659687",
+      "target": "556592990532"
+    },
+    {
+      "source": "5516991659687",
+      "target": "51976105637"
+    },
+    {
+      "source": "51955511912",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51955511912",
+      "target": "554497699842"
+    },
+    {
+      "source": "51955511912",
+      "target": "5521982328851"
+    },
+    {
+      "source": "51955511912",
+      "target": "5521969462254"
+    },
+    {
+      "source": "5521967705525",
+      "target": "554497699842"
+    },
+    {
+      "source": "5521967705525",
+      "target": "554599204415"
+    },
+    {
+      "source": "5521967705525",
+      "target": "5521969462254"
+    },
+    {
+      "source": "5521967705525",
+      "target": "5521982328851"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5516991188638"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5516974051668"
+    },
+    {
+      "source": "5516993513994",
+      "target": "51933198052"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5516991030906"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5519997204085"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5516994526771"
+    },
+    {
+      "source": "5516993513994",
+      "target": "5516982260182"
+    },
+    {
+      "source": "5511994372243",
+      "target": "51920069331"
+    },
+    {
+      "source": "5511994372243",
+      "target": "51919481454"
+    },
+    {
+      "source": "5511994372243",
+      "target": "5516988381877"
+    },
+    {
+      "source": "5516993613615",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5516993613615",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516993613615",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51961889323",
+      "target": "51919481454"
+    },
+    {
+      "source": "51961889323",
+      "target": "51920069331"
+    },
+    {
+      "source": "51975496386",
+      "target": "51919481454"
+    },
+    {
+      "source": "51975496386",
+      "target": "5516974060702"
+    },
+    {
+      "source": "51975496386",
+      "target": "5516994437335"
+    },
+    {
+      "source": "51975496386",
+      "target": "51976105637"
+    },
+    {
+      "source": "51975496386",
+      "target": "51971462359"
+    },
+    {
+      "source": "51975496386",
+      "target": "5516991659687"
+    },
+    {
+      "source": "51966208402",
+      "target": "51919481454"
+    },
+    {
+      "source": "51966208402",
+      "target": "5511967969650"
+    },
+    {
+      "source": "51966208402",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5516994526771",
+      "target": "5516982260182"
+    },
+    {
+      "source": "5516994526771",
+      "target": "51916091603"
+    },
+    {
+      "source": "5516994526771",
+      "target": "5516993513994"
+    },
+    {
+      "source": "5516994526771",
+      "target": "5516991458944"
+    },
+    {
+      "source": "5516994526771",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5516994526771",
+      "target": "51975496386"
+    },
+    {
+      "source": "5516994526771",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51941799870",
+      "target": "5511943765369"
+    },
+    {
+      "source": "51941799870",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51941799870",
+      "target": "51919481454"
+    },
+    {
+      "source": "5517991240945",
+      "target": "51919481454"
+    },
+    {
+      "source": "5517991240945",
+      "target": "51976105637"
+    },
+    {
+      "source": "51979045688",
+      "target": "5516994370778"
+    },
+    {
+      "source": "51920862749",
+      "target": "51935991561"
+    },
+    {
+      "source": "51920862749",
+      "target": "5511967969650"
+    },
+    {
+      "source": "51920862749",
+      "target": "51920069331"
+    },
+    {
+      "source": "51920862749",
+      "target": "5516994365826"
+    },
+    {
+      "source": "51920862749",
+      "target": "554588100731"
+    },
+    {
+      "source": "5511946295096",
+      "target": "51919481454"
+    },
+    {
+      "source": "5511946295096",
+      "target": "5516974051668"
+    },
+    {
+      "source": "5511946295096",
+      "target": "51993784342"
+    },
+    {
+      "source": "5511946295096",
+      "target": "5517991240945"
+    },
+    {
+      "source": "51993784342",
+      "target": "5511946295096"
+    },
+    {
+      "source": "51993784342",
+      "target": "51919481454"
+    },
+    {
+      "source": "51979592992",
+      "target": "51919481454"
+    },
+    {
+      "source": "51979592992",
+      "target": "51993784342"
+    },
+    {
+      "source": "51979592992",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51979592992",
+      "target": "5516974051668"
+    },
+    {
+      "source": "51933537681",
+      "target": "51920069331"
+    },
+    {
+      "source": "51933537681",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51917515154",
+      "target": "51933537681"
+    },
+    {
+      "source": "51917515154",
+      "target": "51920069331"
+    },
+    {
+      "source": "51917515154",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51923531285",
+      "target": "51919481454"
+    },
+    {
+      "source": "51923531285",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51923531285",
+      "target": "51921526074"
+    },
+    {
+      "source": "51923531285",
+      "target": "5511994372243"
+    },
+    {
+      "source": "51923531285",
+      "target": "5516994365826"
+    },
+    {
+      "source": "51978294204",
+      "target": "5511942493253"
+    },
+    {
+      "source": "51987097742",
+      "target": "51933198052"
+    },
+    {
+      "source": "51987097742",
+      "target": "554588100731"
+    },
+    {
+      "source": "51987097742",
+      "target": "5516994370778"
+    },
+    {
+      "source": "51913589459",
+      "target": "51919481454"
+    },
+    {
+      "source": "51913589459",
+      "target": "5516988098573"
+    },
+    {
+      "source": "51913589459",
+      "target": "51966208402"
+    },
+    {
+      "source": "51913589459",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51913589459",
+      "target": "51975496386"
+    },
+    {
+      "source": "51913589459",
+      "target": "554588100731"
+    },
+    {
+      "source": "51913589459",
+      "target": "51971462359"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51919481454"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516988098573"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516994526771"
+    },
+    {
+      "source": "5516982260182",
+      "target": "554497699842"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51975496386"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516997554505"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51916091603"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51955511912"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51987022922"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51941445426"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516994370778"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516994365826"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51976105637"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51920069331"
+    },
+    {
+      "source": "5516982260182",
+      "target": "5516993613615"
+    },
+    {
+      "source": "5516982260182",
+      "target": "51997495330"
+    },
+    {
+      "source": "5519990083077",
+      "target": "5516992685376"
+    },
+    {
+      "source": "5519990083077",
+      "target": "51919481454"
+    },
+    {
+      "source": "5519990083077",
+      "target": "5511967969650"
+    },
+    {
+      "source": "5519990083077",
+      "target": "554497699842"
+    },
+    {
+      "source": "5519990083077",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51919481454",
+      "target": "5516992685376"
+    },
+    {
+      "source": "51919481454",
+      "target": "5516974060702"
+    },
+    {
+      "source": "51919481454",
+      "target": "5516982260182"
+    },
+    {
+      "source": "51919481454",
+      "target": "5511967969650"
+    },
+    {
+      "source": "51919481454",
+      "target": "51920069331"
+    }
+
+  ],
+  "categories": [
+    { "name": "Otros" },          
+    { "name": "Arequipa" },       
+    { "name": "Callao" },         
+    { "name": "Apurimac" },       
+    { "name": "Lima" },           
+    { "name": "Cusco" },          
+    { "name": "Puno" },           
+    { "name": "Lambayeque" },     
+    { "name": "Moquegua" },       
+    { "name": "La Libertad" },    
+    { "name": "Ayacucho" },       
+    { "name": "Loreto" },         
+    { "name": "Tacna" },          
+    { "name": "Ancash" },          
+    { "name": "Huánuco" },          
+    { "name": "Ica" }               
+  ]
+}
+

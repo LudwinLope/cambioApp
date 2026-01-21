@@ -1,12 +1,33 @@
 {% extends "base.html" %}
 {% block content %}
-<h1>Login</h1>
-<form method="post">
-  {{ form.hidden_tag() }}
-  <p>{{ form.email.label }}<br>{{ form.email() }}</p>
-  <p>{{ form.password.label }}<br>{{ form.password() }}</p>
-  <p>{{ form.submit() }}</p>
-</form>
-<a href="{{ url_for('auth.register') }}">Register</a>
+
+<div class="logo-container">
+  <a href="https://ludowen.com" target="_blank" rel="noopener">
+    <img src="{{ url_for('static', filename='img/logo.png') }}" alt="Logo" width="100">
+  </a>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h1>Login</h1>
+
+    <form method="post">
+      {{ form.hidden_tag() }}
+
+      <label>{{ form.email.label }}</label>
+      {{ form.email(placeholder="you@example.com") }}
+
+      <label>{{ form.password.label }}</label>
+      {{ form.password(placeholder="••••••••") }}
+
+      <div class="row" style="margin-top: 14px;">
+        {{ form.submit(class_="btn") }}
+        <a class="btn secondary" href="{{ url_for('auth.register') }}">Register</a>
+      </div>
+    </form>
+  </div>
+</div>
+
 {% endblock %}
+
 
